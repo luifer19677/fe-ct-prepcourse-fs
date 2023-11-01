@@ -5,10 +5,10 @@
 // por el correspondiente.
 
 // Crea una variable de tipo string.
-const nuevoString = 'Fernando Quintero';
+const nuevoString = 'Luis Fernando Quintero';
 
 // Crea una variable de tipo number.
-const nuevoNumero = 25.6;
+const nuevoNumero = 125.6;
 
 // Crea una variable de tipo boolean.
 const nuevoBoolean = true;
