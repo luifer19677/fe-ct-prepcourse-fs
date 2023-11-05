@@ -8,54 +8,94 @@ function esPositivo(num) {
    // Si el número es negativo ---> "Es negativo".
    // Si el número es 0, devuelve false.
    // Tu código:
+   if(num === 0){
+      return ('false');
+  }
+  else if (num > 0){
+      return ('Es positivo');
+  }
+  else {
+      return ('Es negativo');
+  }
 }
+var recibe = esPositivo(67);
 
 function agregarSimboloExclamacion(str) {
    // Agrega un símbolo de exclamación al final del string "str" y retórnalo
    // Ejemplo: "hello world" ---> "hello world!"
    // Tu código:
+   return str + '!';
 }
+var agregar = agregarSimboloExclamacion('Curso Henry de JavaScript');
 
 function combinarNombres(nombre, apellido) {
    // Retorna "nombre" y "apellido" combinados en un mismo string pero separados por un espacio.
    // Ejemplo: ("Soy", "Henry") ---> "Soy Henry"
    // Tu código:
+   return (nombre + ' ' + apellido);
 }
+var combinar = combinarNombres('fernando','quintero');
 
 function obtenerSaludo(nombre) {
    // Toma el string "nombre" y concatena otra string en la cadena para que tome la siguiente forma:
    // Ejemplo: "Martin" ---> "Hola Martin!"
    // Tu código:
+   return 'Hola' + ' ' + nombre + '!';
 }
+var concatenar = obtenerSaludo('Fernando Quintero');
 
 function obtenerAreaRectangulo(alto, ancho) {
    // Retornar el área de un rectángulo teniendo su altura y ancho.
    // Tu código:
+   var area = alto * ancho;
+    return area;
 }
+var superficie = obtenerAreaRectangulo(10,7);
 
 function retornarPerimetro(lado) {
    // La función recibe como argumento la medida de un lado de un cuadrado.
    // Debes retornar su perímetro.
    // Tu código:
+   var perimetro = 4 * lado;
+    return perimetro;
 }
+var perim = retornarPerimetro(6);
 
 function areaDelTriangulo(base, altura) {
    // Calcula el área de un triángulo y retorna el resultado.
    // Tu código:
+   var area = base * altura /2;
+    return area;
 }
+var are = areaDelTriangulo(10,15);
 
 function deEuroAdolar(euro) {
    // Supongamos que 1 euro equivale a 1.20 dólares.
    // Debes calcular el valor recibido como argumento pasándolo a dolares.
    // Tu código:
+   var dolares = euro * 1.20;
+   return dolares;
 }
+var converDolares = deEuroAdolar(150);
 
 function esVocal(letra) {
    // Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”.
    // Si el usuario ingresa un string de más de un caracter debes retornar el mensaje: "Dato incorrecto".
    // Si no es vocal, tambien debe retornar "Dato incorrecto".
    // Tu código:
+   if (letra.length !== 1){
+      return 'Dato incorrecto';
+  }
+  const vocal = letra.toLowerCase();
+  if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u'){
+
+      return 'Es vocal';
+  }
+  else {
+      return 'Dato incorrecto'
+  }
 }
+var letra = esVocal('assd');
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
