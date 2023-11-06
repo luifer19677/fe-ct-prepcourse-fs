@@ -18,7 +18,7 @@ function esPositivo(num) {
       return ('Es negativo');
   }
 }
-var recibe = esPositivo(67);
+//var recibe = esPositivo(67);
 
 function agregarSimboloExclamacion(str) {
    // Agrega un símbolo de exclamación al final del string "str" y retórnalo
@@ -26,7 +26,7 @@ function agregarSimboloExclamacion(str) {
    // Tu código:
    return str + '!';
 }
-var agregar = agregarSimboloExclamacion('Curso Henry de JavaScript');
+//var agregar = agregarSimboloExclamacion('Curso Henry de JavaScript');
 
 function combinarNombres(nombre, apellido) {
    // Retorna "nombre" y "apellido" combinados en un mismo string pero separados por un espacio.
@@ -34,7 +34,7 @@ function combinarNombres(nombre, apellido) {
    // Tu código:
    return (nombre + ' ' + apellido);
 }
-var combinar = combinarNombres('fernando','quintero');
+//var combinar = combinarNombres('fernando','quintero');
 
 function obtenerSaludo(nombre) {
    // Toma el string "nombre" y concatena otra string en la cadena para que tome la siguiente forma:
@@ -42,41 +42,41 @@ function obtenerSaludo(nombre) {
    // Tu código:
    return 'Hola' + ' ' + nombre + '!';
 }
-var concatenar = obtenerSaludo('Fernando Quintero');
+//var concatenar = obtenerSaludo('Fernando Quintero');
 
 function obtenerAreaRectangulo(alto, ancho) {
    // Retornar el área de un rectángulo teniendo su altura y ancho.
    // Tu código:
-   var area = alto * ancho;
-    return area;
+   //var area = alto * ancho;
+    return alto * ancho;
 }
-var superficie = obtenerAreaRectangulo(10,7);
+//var superficie = obtenerAreaRectangulo(10,7);
 
 function retornarPerimetro(lado) {
    // La función recibe como argumento la medida de un lado de un cuadrado.
    // Debes retornar su perímetro.
    // Tu código:
-   var perimetro = 4 * lado;
-    return perimetro;
+   return 4 * lado;
+    //return perimetro;
 }
-var perim = retornarPerimetro(6);
+//var perim = retornarPerimetro(6);
 
 function areaDelTriangulo(base, altura) {
    // Calcula el área de un triángulo y retorna el resultado.
    // Tu código:
-   var area = base * altura /2;
-    return area;
+   //var area = base * altura /2;
+    return (base * altura) /2;
 }
-var are = areaDelTriangulo(10,15);
+//var are = areaDelTriangulo(10,15);
 
 function deEuroAdolar(euro) {
    // Supongamos que 1 euro equivale a 1.20 dólares.
    // Debes calcular el valor recibido como argumento pasándolo a dolares.
    // Tu código:
-   var dolares = euro * 1.20;
-   return dolares;
+   return euro * 1.20;
+   //return dolares;
 }
-var converDolares = deEuroAdolar(150);
+//var converDolares = deEuroAdolar(150);
 
 function esVocal(letra) {
    // Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”.
@@ -95,7 +95,7 @@ function esVocal(letra) {
       return 'Dato incorrecto'
   }
 }
-var letra = esVocal('assd');
+//var letra = esVocal('assd');
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
