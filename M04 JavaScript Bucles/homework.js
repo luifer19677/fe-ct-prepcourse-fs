@@ -15,7 +15,7 @@ function obtenerMayor(x, y) {
       return y;
    }
 }
-var masGrande = obtenerMayor(18,28);
+//var masGrande = obtenerMayor(18,28);
 
 function mayoriaDeEdad(edad) {
    // Determinar si la persona puede ingresar al evento según su edad.
@@ -29,7 +29,7 @@ function mayoriaDeEdad(edad) {
       return 'Not allowed';
    }
 }
-var ingresar = mayoriaDeEdad(17);
+//var ingresar = mayoriaDeEdad(17);
 
 function conection(status) {
    // El argumento "status" representa el estado de conexión de un usuario.
@@ -48,7 +48,7 @@ function conection(status) {
       return 'Offline';
    }
 }
-var estado = conection(3);
+//var estado = conection(3);
 
 function saludo(idioma) {
    // Retornar un saludo en tres diferentes lenguajes:
@@ -70,7 +70,7 @@ function saludo(idioma) {
       return 'Hola!'
    }
 }
-var greeting = saludo('mandarin');
+//var greeting = saludo('mandarin');
 
 function colors(color) {
    // La función recibe un color. Retornar el string correspondiente:
@@ -97,7 +97,7 @@ function colors(color) {
       return 'Color not found';
    }
 }
-var colores = colors('violet');
+//var colores = colors('violet');
 
 function esDiezOCinco(num) {
    // Retornar true si "num" es 10 o 5.
@@ -110,7 +110,7 @@ function esDiezOCinco(num) {
       return false;
    }
 }
-var decision = esDiezOCinco(10);
+//var decision = esDiezOCinco(10);
 
 function estaEnRango(num) {
    // Retornar true si "num" es menor que 50 y mayor que 20.
@@ -123,7 +123,7 @@ function estaEnRango(num) {
       return false;
    }
 }
-console.log(numero);
+//console.log(numero);
 
 function esEntero(num) {
    // Retornar true si "num" es un entero, ya sea positivo, negativo o cero.
@@ -139,7 +139,7 @@ function esEntero(num) {
       return false;
    }
 }
-var entero = esEntero(-10.26);
+//var entero = esEntero(-10.26);
 
 function fizzBuzz(num) {
    // Si "num" es divisible entre 3, retorna "fizz".
@@ -147,20 +147,22 @@ function fizzBuzz(num) {
    // Si "num" es divisible entre 3 y 5 (ambos), retorna "fizzbuzz".
    // De lo contrario, retorna false.
    // Tu código:
-   if (num % 3 === 0){
+   if (num % 3 === 0  && num % 5 === 0){
+      return 'fizzbuzz';
+   }
+
+   else if (num % 3 === 0){
       return 'fizz';
    }
    else if (num % 5 === 0){
       return 'buzz';
    }
-   else if (num % 3 === 0  && num % 5 === 0){
-      return 'fizzbuzz';
-   }
+  
    else {
       return false;
    }
 }
-var validar = fizzBuzz(15010);
+//var validar = fizzBuzz(15010);
 
 function operadoresLogicos(num1, num2, num3) {
    // La función recibe tres números distintos.
