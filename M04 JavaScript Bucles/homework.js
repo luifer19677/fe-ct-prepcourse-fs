@@ -188,7 +188,7 @@ function operadoresLogicos(num1, num2, num3) {
       return false;
    }
 }
-var logica = operadoresLogicos(20,10,100);
+//var logica = operadoresLogicos(20,10,100);
 
 function esPrimo(num) {
    // Retornar true si "num" es primo.
@@ -207,20 +207,20 @@ function esPrimo(num) {
    }
    return true;
 }
-var primo = esPrimo(13);
+//var primo = esPrimo(13);
 
 function esVerdadero(valor) {
    // Si "valor" es verdadero retornar "Soy verdadero".
    // Caso contrario, retornar "Soy falso".
    // Tu código:
-   if (valor === 'verdadero'){
+   if (valor === true){
       return 'Soy verdadero';
    }
    else {
       return 'Soy falso';
    }
 }
-var verdadero = esVerdadero('hola mundo');
+//var verdadero = esVerdadero('hola mundo');
 
 function tieneTresDigitos(num) {
    // Si el número recibido tiene tres dígitos retornar true.
@@ -233,7 +233,7 @@ function tieneTresDigitos(num) {
       return false;
    }
 }
-var digito = tieneTresDigitos(256);
+//var digito = tieneTresDigitos(256);
 
 function doWhile(num) {
    // Implementar una función que aumente el valor recibido en 5 hasta un límite de 8 veces.
@@ -248,7 +248,7 @@ function doWhile(num) {
 
    return num;
 }
-var numero = doWhile(10);
+//var numero = doWhile(10);
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
