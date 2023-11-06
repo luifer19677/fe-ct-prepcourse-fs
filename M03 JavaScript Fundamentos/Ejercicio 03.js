@@ -12,7 +12,7 @@ function sonIguales(x, y) {
       return false;
   }
 }
-var compara = sonIguales(5,5);
+//var compara = sonIguales(5,5);
 
 function tienenMismaLongitud(str1, str2) {
    // Retorna true si los dos strings tienen la misma longitud.
@@ -24,9 +24,8 @@ function tienenMismaLongitud(str1, str2) {
   else {
       return false;
   }
-  var longitud = tienenMismaLongitud('hola', 'a todos');
-
 }
+//var longitud = tienenMismaLongitud('hola', 'a todos');
 
 function menosQueNoventa(num) {
    // Retorna true si el argumento "num" es menor que noventa.
@@ -39,7 +38,7 @@ function menosQueNoventa(num) {
       return false;
   }
 }
-var numero = menosQueNoventa(80);
+//var numero = menosQueNoventa(80);
 
 function mayorQueCincuenta(num) {
    // Retorna true si el argumento "num" es mayor que cincuenta.
@@ -52,7 +51,7 @@ function mayorQueCincuenta(num) {
       return false;
   }
 }
-var numero = mayorQueCincuenta(40);
+//var numero = mayorQueCincuenta(40);
 
 function esPar(num) {
    // Retorna true si "num" es par.
@@ -65,7 +64,7 @@ function esPar(num) {
       return false;
   }
 }
-var numero = esPar(289);
+//var numero = esPar(289);
 
 function esImpar(num) {
    // Retorna true si "num" es impar.
@@ -78,7 +77,7 @@ function esImpar(num) {
       return false;
   }
 }
-var numero = esImpar(567);
+//var numero = esImpar(567);
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
