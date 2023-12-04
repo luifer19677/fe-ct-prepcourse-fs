@@ -26,8 +26,8 @@ function agregarSimboloExclamacion(str) {
    // Tu código:
    return str + '!';
 }
-//var agregar = agregarSimboloExclamacion('Curso Henry de JavaScript');
-
+/*var unir = agregarSimboloExclamacion('Fernando');
+console.log(unir);*/
 function combinarNombres(nombre, apellido) {
    // Retorna "nombre" y "apellido" combinados en un mismo string pero separados por un espacio.
    // Ejemplo: ("Soy", "Henry") ---> "Soy Henry"
@@ -86,8 +86,8 @@ function esVocal(letra) {
    if (letra.length !== 1){
       return 'Dato incorrecto';
   }
-  const vocal = letra.toLowerCase();
-  if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u'){
+  //const vocal = letra.toLowerCase();
+  if (letra.toLowerCase() === 'a' || letra.toLowerCase() === 'e' || letra.toLowerCase() === 'i' || letra.toLowerCase() === 'o' || letra.toLowerCase() === 'u'){
 
       return 'Es vocal';
   }
