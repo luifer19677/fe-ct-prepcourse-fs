@@ -1,0 +1,20 @@
+/*Selector por etiqueta*/
+body {
+    background-color:silver;
+}
+
+/*Selector por clase*/
+.title {
+    font-size: 40px;
+    color: crimson;
+}
+
+/*Selector por ID*/
+#principal {
+    font-size: 70px;
+}
+
+.logo {
+    width: 200px;
+}
+
