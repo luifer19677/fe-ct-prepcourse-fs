@@ -1,20 +1,70 @@
-/*Selector por etiqueta*/
+/* General */
 body {
-    background-color:silver;
-}
-
-/*Selector por clase*/
-.title {
-    font-size: 40px;
-    color: crimson;
-}
-
-/*Selector por ID*/
-#principal {
-    font-size: 70px;
-}
-
-.logo {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  .header {
+    padding: 20px;
+    background-color: #e8e8e8;
+  }
+  
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Logo */
+  .logo {
     width: 200px;
-}
-
+    margin-bottom: 10px;
+  }
+  
+  /* Títulos */
+  .title {
+    margin: 5px 0;
+  }
+  
+  /* Main */
+  .main {
+    text-align: left; /* Alinea todo el contenido a la izquierda */
+    margin: 20px auto;
+    width: 80%; /* Ajusta el ancho del main para que no ocupe toda la pantalla */
+  }
+  
+  .main p {
+    text-align: justify; /* Justifica el texto */
+  }
+  
+  .tech-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start; /* Asegura que las tecnologías también queden alineadas a la izquierda */
+  }
+  
+  .tech-logo {
+    width: 100px;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #4caf50;
+    text-decoration: none;
+  }
+  
