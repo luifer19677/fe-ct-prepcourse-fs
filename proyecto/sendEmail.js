@@ -13,8 +13,8 @@ let transporter = nodemailer.createTransport({
 // Función para enviar el correo
 function sendEmail(userEmail, userName, userMessage) {
   let mailOptions = {
-    from: 'lfquintero4539@gmail.com', // Correo de origen
-    to: 'lfquintero19677@gmail.com', // Aquí puedes cambiar el correo de destino
+    from: '', // Correo de origen
+    to: '', // Aquí puedes cambiar el correo de destino
     subject: 'Nuevo mensaje de contacto',
     text: `Has recibido un mensaje de ${userEmail}: ${userName}: ${userMessage}`, // Mensaje en texto
     html: `<p><strong>${userName}</strong> te ha enviado el siguiente mensaje: <br>${userMessage}</p>` // Mensaje en HTML
