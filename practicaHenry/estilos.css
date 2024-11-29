@@ -34,8 +34,27 @@ h1 {
     color: blueviolet;
 }
 
+.cards {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 1em 1em ; /*se despega sentido manecillas reloj*/
+    border-radius: 10%; /*redondea el border de la tarjeta*/
+    transition: 1s; /*tarda 1 seg para que al pasar el mouse por la tarjeta cambie de color--:hover*/
+}
+
+.cards:hover { /*la clase cards tiene un pseudoselector, al pasar el mouse por encima cambia de color*/
+    background-color: rgb(165, 165, 221);
+}
+
 .logo {
     width: 100;  
+}
+
+#titulos {
+    border: 2px solid black;
+    width: 50vw; /*representa el 50% de la pantalla donde este*/
+    margin: auto; /*se separa de los elementos que lo rodean --todo el body*, centra el texot del div*/
+    padding: 3em; /*despega el contenido del div hacia adentro*/
 }
 
 
