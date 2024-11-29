@@ -1,18 +1,42 @@
+/*Siempre colocar esta configuracion en el css de los 
+selector html, body y h1 Con esta configuración, se hace más fácil usar unidades
+rem para definir tamaños de fuente y otros elementos de diseño.
+html {
+    font-size: 62.5%; /* 1 rem = 10 px 
+}
+  
+body {
+  font-size: 1.6rem; /* 16 px 
+}
+
+h1 {
+  font-size: 2.4rem; /* 24 px 
+}
+
+*/
+
+
 .fondo {
     background-color:aqua
 }
 
 .title {
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .miTexto {
-    font-size: 20px;
+    font-size: 1rem;
     color: green;
 }
 
-.titulo_h1 {
-    font-size: 60px;
+#titulo_h1 {
+    font-size: 3rem;
     color: blueviolet;
 }
+
+.logo {
+    width: 100;  
+}
+
+
 
