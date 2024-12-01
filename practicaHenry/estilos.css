@@ -30,31 +30,59 @@ h1 {
 }
 
 #titulo_h1 {
-    font-size: 3rem;
+    font-size: 3rem; /*Definir tamaños generales de texto o espaciamientos para un sistema completo*/
     color: blueviolet;
 }
 
 .cards {
     border: 2px solid black;
     width: fit-content;
-    padding: 0px 1em 1em 1em ; /*se despega sentido manecillas reloj*/
+    padding: 1em 1em 1em 1em ; /*se despega sentido manecillas reloj*/
     border-radius: 10%; /*redondea el border de la tarjeta*/
     transition: 1s; /*tarda 1 seg para que al pasar el mouse por la tarjeta cambie de color--:hover*/
+    display: flex; /*podemos colocar display para organizar mejor el contenido de cada tarjeta*/
+    flex-direction: column;
+    gap: 2em; /*dar espaciado entre el texto de la imagen y la imagen*/
+    align-items: center; /*centrar texto de la tarjeta*/
+
 }
 
 .cards:hover { /*la clase cards tiene un pseudoselector, al pasar el mouse por encima cambia de color*/
     background-color: rgb(165, 165, 221);
 }
 
+#cards-container {
+    background-color:rgb(110, 110, 119);
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em; /*se utiliza em en lugar de rem cuando se trabaja dentro de un contenedor, padding para separar texto que esta encima del contenedor*/
+    border: 3px solid rgb(173, 123, 57);
+    border-radius: 15px;
+    padding: 2em; /*separar las cards del border del contenedor*/
+    display: flex; /*empezar a partir de aqui a posicionar los elementos del contenedor*/
+    flex-direction: row; /*por defecto es row(coloca en fila) pero se puede cambiar a column*/
+    justify-content:space-between; /*tienen el mismo espacioado entre las imagenes del contenedor*/
+
+
+}
+
 .logo {
-    width: 100;  
+    width: 300px; 
+    height: 300px; 
 }
 
 #titulos {
-    border: 2px solid black;
+   
     width: 50vw; /*representa el 50% de la pantalla donde este*/
     margin: auto; /*se separa de los elementos que lo rodean --todo el body*, centra el texot del div*/
     padding: 3em; /*despega el contenido del div hacia adentro*/
+    display: flex; /*tambien colocar un display para organizar el posicionamiento de los titulos*/
+    flex-direction: column;
+    align-items: center;
+}
+
+#pie-pagina {
+    margin-top: 3%;
 }
 
 
