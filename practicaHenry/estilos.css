@@ -53,7 +53,7 @@ h1 {
 
 #cards-container {
     background-color:rgb(110, 110, 119);
-    width: 85vw;
+    width: 85vw; /*ocupa el 85% de la pantalla*/
     margin: auto;
     margin-top: 1.5em; /*se utiliza em en lugar de rem cuando se trabaja dentro de un contenedor, padding para separar texto que esta encima del contenedor*/
     border: 3px solid rgb(173, 123, 57);
