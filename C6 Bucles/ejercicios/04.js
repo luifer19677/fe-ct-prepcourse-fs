@@ -3,6 +3,13 @@ function mayoriaDeEdad(edad) {
   // Si tiene 18 años o más, retorna el string: "Allowed".
   // Caso contrario: "Not allowed".
   // Tu código:
+  if(edad >= 18) {
+    return "Allowed";
+}else {
+    return "Not allowed";
 }
+}
+let evento = mayoriaDeEdad(18);
+console.log(evento);
 
 module.exports = mayoriaDeEdad;
