@@ -7,6 +7,9 @@ function redondearNumero(num) {
    // 1.5 ---> 2
    // 0.1 ---> 0
    // Tu código:
+   return Math.round(num);
 }
+let redondea = redondearNumero(1.5);
+console.log(redondea);
 
 module.exports = redondearNumero;
