@@ -6,6 +6,6 @@ function esTipoDato(valor) {
   return valor;
 }
 retorna = esTipoDato('Hola a todos en Henry');
-
+console.log(retorna);
 
 module.exports = esTipoDato;
