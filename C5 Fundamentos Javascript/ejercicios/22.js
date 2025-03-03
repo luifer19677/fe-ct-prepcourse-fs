@@ -7,7 +7,7 @@ function divide(x, y) {
   // Tu código:
   return x / y;
 }
-let dividir = divide(10,5);
+let dividir = divide(10,15);
 console.log(dividir);
 
 module.exports = divide;
