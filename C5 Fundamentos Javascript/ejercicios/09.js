@@ -16,7 +16,7 @@ else{
 }
 
 }
-retorna = esNuloOIndefinido(null);
+retorna = esNuloOIndefinido(undefined);
 console.log(retorna);
 
 module.exports = esNuloOIndefinido;
