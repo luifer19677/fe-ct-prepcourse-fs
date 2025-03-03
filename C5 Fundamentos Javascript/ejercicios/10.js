@@ -8,7 +8,7 @@ function devolverString(string) {
   // Tu código:
   return string;
 }
-retorna = devolverString('"SoyHenry"');
+retorna = devolverString('"SoyHenryMan"');
 console.log(retorna);
 
 module.exports = devolverString;
