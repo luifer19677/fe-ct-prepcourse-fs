@@ -7,7 +7,7 @@ function multiplica(x, y) {
   // Tu código:
   return x * y;
 }
-let multiplicar = multiplica(10,5);
+let multiplicar = multiplica(100,50);
 console.log(multiplicar); 
 
 module.exports = multiplica;
