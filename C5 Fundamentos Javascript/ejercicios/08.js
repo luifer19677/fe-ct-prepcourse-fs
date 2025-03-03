@@ -14,7 +14,7 @@ function esNumeroEntero(numero) {
       return false;
   }
 }
-retorna = esNumeroEntero(24);
+retorna = esNumeroEntero(35);
 console.log(retorna);
 
 module.exports = esNumeroEntero;
