@@ -13,6 +13,6 @@ else{
     return false;
 }
 }
-retorna = tienenMismaLongitud("SoyHenry","HenrySoy");
+retorna = tienenMismaLongitud("SoyHenry","HenrySoy2");
 console.log(retorna);
 module.exports = tienenMismaLongitud;
