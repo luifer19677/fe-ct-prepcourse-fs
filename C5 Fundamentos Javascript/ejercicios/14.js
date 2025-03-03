@@ -12,7 +12,7 @@ function mayorQueCincuenta(num) {
     return false;
 }
 }
-retorna = mayorQueCincuenta(15);
+retorna = mayorQueCincuenta(150);
 console.log(retorna);
 
 module.exports = mayorQueCincuenta;
