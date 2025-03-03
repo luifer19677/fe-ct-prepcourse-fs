@@ -13,7 +13,7 @@ else{
     return false;
 }
 }
-retorna = menosQueNoventa(91);
+retorna = menosQueNoventa(89);
 console.log(retorna);
 
 module.exports = menosQueNoventa;
