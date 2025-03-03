@@ -12,7 +12,7 @@ function esImpar(num) {
     return false;
 }
 }
-retorna = esImpar(14);
+retorna = esImpar(15);
 console.log(retorna);
 
 module.exports = esImpar;
