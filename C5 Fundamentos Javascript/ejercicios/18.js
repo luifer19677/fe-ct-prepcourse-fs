@@ -18,7 +18,7 @@ else{
     return "Dato incorrecto";
 }
 }
-retorna = esVocal('hola a todos');
+retorna = esVocal('e');
 console.log(retorna);
 
 module.exports = esVocal;
