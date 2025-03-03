@@ -12,7 +12,7 @@ function esPar(num) {
     return false;
 }
 }
-retorna = esPar(15);
+retorna = esPar(125);
 console.log(retorna);
 
 module.exports = esPar;
