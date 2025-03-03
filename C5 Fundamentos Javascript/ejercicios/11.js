@@ -13,7 +13,7 @@ else {
     return false;
 }
 }
-retorna = sonIguales(5,8);
+retorna = sonIguales(15,8);
 console.log(retorna);
 
 module.exports = sonIguales;
