@@ -7,7 +7,7 @@ function suma(x, y) {
   // Tu código:
   return x + y;
 }
-let sumar = suma(5,5);
+let sumar = suma(-5,15);
 console.log(sumar);
 
 module.exports = suma; 
