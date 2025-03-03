@@ -14,7 +14,7 @@ function esPositivo(num) {
     return false;
 }
 }
-retorna = esPositivo(0);
+retorna = esPositivo(-10);
 console.log(retorna);
 
 module.exports = esPositivo;
