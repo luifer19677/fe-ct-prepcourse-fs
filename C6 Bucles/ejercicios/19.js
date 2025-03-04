@@ -10,6 +10,6 @@ function sumarHastaN(n) {
 }
 console.log(sumarHastaN(5));
 console.log(sumarHastaN(15));
-console.log(sumarHastaN(20));
+console.log(sumarHastaN(25));
 
 module.exports = sumarHastaN;
