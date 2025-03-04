@@ -3,6 +3,6 @@ function obtenerLargoDelArray(array) {
   // Tu código:
   return array.length;
 }
-console.log(obtenerLargoDelArray(['azul', 'rojo', 'amarillo']));
+console.log(obtenerLargoDelArray(['azul', 'verde', 'amarillo']));
 
 module.exports = obtenerLargoDelArray;
