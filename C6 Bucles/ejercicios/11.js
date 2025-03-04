@@ -4,6 +4,6 @@ function estaEnRango(num) {
   // Tu código:
   return num > 20 && num < 50;
 }
-console.log(estaEnRango(125));
+console.log(estaEnRango(1255));
 
 module.exports = estaEnRango;
