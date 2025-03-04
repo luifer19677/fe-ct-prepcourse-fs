@@ -12,7 +12,7 @@ function sumarHastaNConBreak(n) {
     }
     return suma;
 }
-console.log(sumarHastaNConBreak(5));  // Esto debería devolver la suma de 1+2+3+4+5, ya que no supera 100
+console.log(sumarHastaNConBreak(10));  // Esto debería devolver la suma de 1+2+3+4+5, ya que no supera 100
 console.log(sumarHastaNConBreak(15)); // Aquí la suma superaría 100, el bucle se detendría
 
 module.exports = sumarHastaNConBreak;
