@@ -9,6 +9,6 @@ function elevarAlCuadrado(num) {
   // Tu código:
   return num ** 2;
 }
-console.log(elevarAlCuadrado(6));
+console.log(elevarAlCuadrado(12));
 
 module.exports = elevarAlCuadrado;
