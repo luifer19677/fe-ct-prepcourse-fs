@@ -9,7 +9,7 @@ function esIgualYNegativo(a, b) {
     return false;
 }
 }
-let retorna = esIgualYNegativo(9,-9);
+let retorna = esIgualYNegativo(19,-9);
 console.log(retorna);
 
 module.exports = esIgualYNegativo;
