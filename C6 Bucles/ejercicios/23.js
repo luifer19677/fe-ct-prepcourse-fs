@@ -25,6 +25,6 @@ function esNumeroPrimo(numero) {
 console.log(esNumeroPrimo(7));  // true
 console.log(esNumeroPrimo(10)); // false
 console.log(esNumeroPrimo(13)); // true
-console.log(esNumeroPrimo(1));  // false
+console.log(esNumeroPrimo(15));  // false
 
 module.exports = esNumeroPrimo;
