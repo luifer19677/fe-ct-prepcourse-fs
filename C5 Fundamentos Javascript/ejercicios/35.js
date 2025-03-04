@@ -9,7 +9,7 @@ function redondearHaciaArriba(num) {
   // Tu código:
   return Math.ceil(num);
 }
-let redondea = redondearHaciaArriba(2.5);
+let redondea = redondearHaciaArriba(2.4);
 console.log(redondea);
 
 module.exports = redondearHaciaArriba;
