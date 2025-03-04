@@ -9,7 +9,7 @@ function elevar(num, exponent) {
   // Tu código:
   return num ** exponent;
 }
-let elevado = elevar(2,2);
+let elevado = elevar(12,2);
 console.log(elevado);
 
 module.exports = elevar;
