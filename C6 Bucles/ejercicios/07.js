@@ -9,7 +9,7 @@ function esParYDivisiblePorTres(a) {
     return false;
 }
 }
-let parDivi = esParYDivisiblePorTres(1550);
+let parDivi = esParYDivisiblePorTres(155);
 console.log(parDivi);
 
 module.exports = esParYDivisiblePorTres;
