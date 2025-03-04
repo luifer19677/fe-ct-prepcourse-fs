@@ -28,7 +28,7 @@ function esPotenciaDeDos(numero) {
 console.log(esPotenciaDeDos(16)); // true
 console.log(esPotenciaDeDos(10)); // false
 console.log(esPotenciaDeDos(1));  // true
-console.log(esPotenciaDeDos(32)); // true
+console.log(esPotenciaDeDos(33)); // true
 console.log(esPotenciaDeDos(20)); // false
 
 module.exports = esPotenciaDeDos;
