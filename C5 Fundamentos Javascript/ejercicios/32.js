@@ -9,7 +9,7 @@ function elevarAlCubo(num) {
   // Tu código:
   return num ** 3;
 }
-let retornaCubo = elevarAlCubo(3);
+let retornaCubo = elevarAlCubo(33);
 console.log(retornaCubo);
 
 module.exports = elevarAlCubo;
