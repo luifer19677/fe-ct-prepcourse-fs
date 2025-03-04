@@ -8,7 +8,7 @@ function tieneTresDigitos(num) {
     return false;
 }
 }
-let retorna = tieneTresDigitos(53);
+let retorna = tieneTresDigitos(5355);
 console.log(retorna);
 
 module.exports = tieneTresDigitos;
