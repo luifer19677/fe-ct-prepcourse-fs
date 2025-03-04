@@ -7,6 +7,6 @@ function agregarItemAlFinalDelArray(array, elemento) {
 }
 // Pruebas
 console.log(agregarItemAlFinalDelArray(['naranja', 'gris'], 'verde')); // ['naranja', 'gris', 'verde']
-console.log(agregarItemAlFinalDelArray([1, 2, 3], 4)); // [1, 2, 3, 4]
+console.log(agregarItemAlFinalDelArray([1, 2, 5], 4)); // [1, 2, 3, 4]
 
 module.exports = agregarItemAlFinalDelArray;
