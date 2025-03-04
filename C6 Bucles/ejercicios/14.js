@@ -34,6 +34,6 @@ console.log(operadoresLogicos(10, 8, 6));  // "Numero 1 es mayor y positivo"
 console.log(operadoresLogicos(1, -9, 7)); // "Hay negativos"
 console.log(operadoresLogicos(12, 19, 27)); // 28
 console.log(operadoresLogicos(0, 0, 0));    // "Error"
-console.log(operadoresLogicos(5, 15, 10));  // false
+console.log(operadoresLogicos(5, 15, 100));  // false
 
 module.exports = operadoresLogicos;
