@@ -10,7 +10,7 @@ function esEntero(num) {
 // Pruebas
 console.log(esEntero(0.8));  // false
 console.log(esEntero(1));    // true
-console.log(esEntero(-10));  // true
+console.log(esEntero(-20));  // true
 console.log(esEntero(0));    // true
 console.log(esEntero(2.5));  // false
 
