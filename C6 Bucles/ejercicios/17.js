@@ -8,26 +8,26 @@ function colors(color) {
   // PISTA: utilizar el statement SWITCH.
   // Tu código:
   switch(color){
-    case "blue":
-        return "This is blue";
+    case "Blue":
+        return "This is Blue";
 
-    case "red":
-        return "This is red";
+    case "Red":
+        return "This is Red";
 
-    case "green":
-        return "This is green";
+    case "Green":
+        return "This is Green";
 
-    case "orange":
-        return "This is orange";
+    case "Orange":
+        return "This is Orange";
 
     default:
         return "Color not found";
 }
 }
-console.log(colors("blue"));
-console.log(colors("red"));
-console.log(colors("green"));
-console.log(colors("orange"));
+console.log(colors("Blue"));
+console.log(colors("Red"));
+console.log(colors("Green"));
+console.log(colors("Orange"));
 console.log(colors("Color not found"));
 
 module.exports = colors;
