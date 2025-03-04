@@ -9,7 +9,7 @@ function mayoriaDeEdad(edad) {
     return "Not allowed";
 }
 }
-let evento = mayoriaDeEdad(10);
-console.log(evento);
+//let evento = mayoriaDeEdad(10);
+console.log(mayoriaDeEdad(10));
 
 module.exports = mayoriaDeEdad;
