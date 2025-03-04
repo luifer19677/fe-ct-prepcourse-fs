@@ -8,7 +8,7 @@ function esVerdaderoYFalso(booleano1, booleano2) {
     return false;
 }
 }
-let boolean = esVerdaderoYFalso(false,true);
+let boolean = esVerdaderoYFalso(true,true);
 console.log(boolean);
 
 module.exports = esVerdaderoYFalso;
