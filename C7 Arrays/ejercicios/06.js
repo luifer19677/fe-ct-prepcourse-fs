@@ -5,7 +5,7 @@ function invertirArray(array) {
 }
 // Pruebas
 console.log(invertirArray([1, 2, 3, 4])); // [4, 3, 2, 1]
-console.log(invertirArray(['azul', 'rojo', 'verde'])); // ['verde', 'rojo', 'azul']
+console.log(invertirArray(['limon', 'rojo', 'verde'])); // ['verde', 'rojo', 'azul']
 console.log(invertirArray([])); // []
 
 module.exports = invertirArray;
