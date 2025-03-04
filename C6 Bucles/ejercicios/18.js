@@ -19,6 +19,6 @@ return producto;
 }
 console.log(productoEntreNúmeros(2, 5)); // 120 (2 * 3 * 4 * 5)
 console.log(productoEntreNúmeros(3, 3)); // 3 (solo 3)
-console.log(productoEntreNúmeros(4, 2)); // 120 (4 * 3 * 2 )
+console.log(productoEntreNúmeros(4, 6)); // 120 (4 * 3 * 2 )
 
 module.exports = productoEntreNúmeros;
