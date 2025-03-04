@@ -32,6 +32,6 @@ console.log(obtenerDiaSemana(4));
 console.log(obtenerDiaSemana(5));
 console.log(obtenerDiaSemana(6));
 console.log(obtenerDiaSemana(7));
-console.log(obtenerDiaSemana(8));
+console.log(obtenerDiaSemana(10));
 
 module.exports = obtenerDiaSemana;
