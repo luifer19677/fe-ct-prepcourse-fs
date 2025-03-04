@@ -5,7 +5,7 @@ function esPositivoOInferiorA10(a) {
    // Tu código:
    return a > 0 && a < 10;
 }
-let retorna = esPositivoOInferiorA10(17);
+let retorna = esPositivoOInferiorA10(170);
 console.log(retorna);
 
 module.exports = esPositivoOInferiorA10;
