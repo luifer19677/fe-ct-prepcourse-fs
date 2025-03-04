@@ -15,7 +15,7 @@ else{
     return "Offline";
 }
 }
-let stado = conection(1);
+let stado = conection(2);
 console.log(stado);
 
 module.exports = conection;
