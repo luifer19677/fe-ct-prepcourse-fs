@@ -5,6 +5,6 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   array.unshift(elemento);
   return array;
 }
-console.log(agregarItemAlComienzoDelArray(['negro', 'marron'], 'naranja'))
+console.log(agregarItemAlComienzoDelArray(['green', 'marron'], 'naranja'))
 
 module.exports = agregarItemAlComienzoDelArray;
