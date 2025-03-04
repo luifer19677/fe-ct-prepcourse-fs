@@ -8,7 +8,7 @@ function esVerdadero(valor) {
     return "Soy falso";
 }
 }
-let retorna = esVerdadero(false);
+let retorna = esVerdadero(true);
 console.log(retorna);
 
 module.exports = esVerdadero;
