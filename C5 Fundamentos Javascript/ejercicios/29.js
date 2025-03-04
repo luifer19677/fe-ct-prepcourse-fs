@@ -8,7 +8,7 @@ function areaDelTriangulo(base, altura) {
   let area = base * altura / 2;
   return area;
 }
-let are = areaDelTriangulo(10,5);
+let are = areaDelTriangulo(10,15);
 console.log(are);
 
 module.exports = areaDelTriangulo;
