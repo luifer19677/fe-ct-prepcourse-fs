@@ -15,5 +15,5 @@ function doWhile(num) {
     return num;
 }
 // Ejemplo de uso:
-console.log(doWhile(10));  // Este ejemplo comenzará con 10 y lo aumentará 8 veces en 5. Debería devolver 50.
+console.log(doWhile(15));  // Este ejemplo comenzará con 15 y lo aumentará 8 veces en 5. Debería devolver 50.
 module.exports = doWhile;
