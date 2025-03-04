@@ -11,7 +11,7 @@ function obtenerMayor(x, y) {
     return x;
 }
 }
-let retorna = obtenerMayor(8,8);
+let retorna = obtenerMayor(8,9);
 console.log(retorna);
 
 module.exports = obtenerMayor;
