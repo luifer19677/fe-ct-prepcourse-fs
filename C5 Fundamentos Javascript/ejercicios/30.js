@@ -10,6 +10,6 @@ function deEuroAdolar(euro) {
   let dolares = euro * 1.20;
   return dolares.toFixed(2);
 }
-console.log(deEuroAdolar(1));
+console.log(deEuroAdolar(100), "dolares!");
 
 module.exports = deEuroAdolar;
