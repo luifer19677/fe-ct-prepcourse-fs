@@ -4,7 +4,7 @@ function esDiezOCinco(num) {
   // Tu código:
   return num === 10 || num === 5;
 }
-let retorna = esDiezOCinco(5);
+let retorna = esDiezOCinco(50);
 console.log(retorna);
 
 module.exports = esDiezOCinco;
